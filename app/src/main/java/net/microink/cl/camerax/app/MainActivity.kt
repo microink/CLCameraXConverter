@@ -137,7 +137,8 @@ class MainActivity : AppCompatActivity() {
             .build()
         imageAnalysis.setAnalyzer(Executors.newSingleThreadExecutor()) { imageProxy ->
 
-            viewModel.handleImageProxy(imageProxy, dataBinding.previewViewMain.rotation.toInt())
+
+            viewModel.handleImageProxy(imageProxy, 90)
         }
 
         preview.surfaceProvider = dataBinding.previewViewMain.getSurfaceProvider()
