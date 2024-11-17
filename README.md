@@ -55,7 +55,7 @@ dependencies {
 
 ```kotlin
         clCameraXConverter.imageProxyToBitmapFormPool(imageProxy,
-            binding.previewViewMain.rotation.toInt(),
+            rotationAngle,
             object : CLCameraXCallback{
             override fun onCLCameraXBitmap(clCameraXBitmap: CLCameraXBitmap) {
                 // 1. get bitmap form CLCameraXBitmap
