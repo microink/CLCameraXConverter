@@ -12,6 +12,7 @@ constraintlayout = "2.2.0"
 cameraX = "1.4.0"
 activityKtx = "1.9.3"
 lifecycle = "2.8.7"
+maven = "0.28.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -40,4 +41,5 @@ androidx-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", 
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
+mavenPublish = { id = "com.vanniktech.maven.publish", version.ref = "maven" }
 

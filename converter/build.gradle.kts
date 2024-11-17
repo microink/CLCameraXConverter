@@ -1,6 +1,21 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.mavenPublish)
+}
+
+group = "net.microink.cl.camerax.converter"
+version = "1.0.1"
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                groupId = (group.toString())
+                artifactId = "CLCameraXConverter"
+                version = version
+            }
+        }
+    }
 }
 
 android {
