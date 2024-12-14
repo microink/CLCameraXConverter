@@ -8,7 +8,10 @@
 
 </div>
 
-&nbsp; 使用CameraX的ImageAnalysis进行图像分析的快速工具，一行代码搞定Bitmap复用避免内存抖动与频繁GC、处理CameraX输出图像角度与所见不同、自动裁剪成视野中结果。
+&nbsp; 使用CameraX的ImageAnalysis进行图像分析的快速工具，一行代码搞定Bitmap复用避免内存抖动与频繁GC、处理CameraX输出图像角度与所见不同、自动裁剪成视野中结果。<br>
+<picture>
+<img alt="screenshot" src="https://github.com/microink/CLCameraXConverter/blob/main/img/CLCameraXConverter_schema.png">
+</picture>
 
 
 ### 支持特性
