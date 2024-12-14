@@ -1,11 +1,3 @@
-<!--
- * @Author: liuyan yan.liu@neox-inc.com
- * @Date: 2024-11-16 23:26:09
- * @LastEditors: liuyan yan.liu@neox-inc.com
- * @LastEditTime: 2024-11-17 16:50:28
- * @FilePath: \undefinedd:\Project\Android\Github\CLCameraXConverter\README.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 # CLCameraXConverter
 <h4 align="left"><strong>English</strong> | 
 <a href="https://github.com/microink/CLCameraXConverter/blob/main/README_zh.md">简体中文</a></h4>
@@ -16,7 +8,10 @@
 
 </div>
 
-&nbsp; A quick tool for image analysis using CameraX's ImageAnalysis, featuring the abilities to avoid Bitmap memory churn, reduce frequent garbage collection (GC), handle rotation, and crop the field of view image, with a single method to obtain the Bitmap within the view.
+&nbsp; A quick tool for image analysis using CameraX's ImageAnalysis, featuring the abilities to avoid Bitmap memory churn, reduce frequent garbage collection (GC), handle rotation, and crop the field of view image, with a single method to obtain the Bitmap within the view.<br>
+<picture>
+ <img alt="screenshot" src="https://github.com/microink/CLCameraXConverter/blob/main/img/CLCameraXConverter_schema.png">
+</picture>
 
 
 ### Feature
